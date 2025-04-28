@@ -1,0 +1,80 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    width: 100%;
+    background-color: rgba(244,237,221);
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Logo */
+  .logo img {
+    height: 100px;
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  /* Navegação */
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    font-family: Poppins;
+    font-weight: bold;
+    text-decoration: none;
+    color: #294d2c;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  a {
+    text-decoration: none; /* remove sublinhado */
+    color: inherit; /* herda a cor do h3 */
+  }
+
+  .nav-links a:hover {
+    color: #5dad62; /* muda para azul no hover (você pode trocar pela cor da sua marca) */
+    transform: scale(1.05);
+  }
+  
+  /* Ícones */
+  .header-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-icons a {
+    color: #294d2c;
+    font-size: 22px;
+    transition: color 0.3s;
+  }
+  
+  .header-icons a:hover {
+    color: #5dad62;
+    transform: scale(1.05);
+  }
+  
