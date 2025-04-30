@@ -261,3 +261,19 @@
 .botao_shop:hover {
   background-color: #222; /* escurece um pouco no hover */
 }
+
+footer {
+  background-color: rgb(31, 26, 21);
+  color: #f8f8f8;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 20px;
+}

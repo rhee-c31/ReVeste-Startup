@@ -214,5 +214,19 @@
     text-decoration: underline;
   }
   
+  footer {
+    background-color: rgb(31, 26, 21);
+    color: #f8f8f8;
+    padding: 20px;
+  }
   
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .copy {
+    text-align: center;
+    margin-top: 20px;
+  } 
   
