@@ -91,3 +91,91 @@
     transform: scale(1.05);
   }
   
+  
+  .pagina-produto {
+    display: flex;
+    gap: 6rem;
+    max-width: 1200px;
+    margin: 90px auto;
+    padding: 0 40px;
+    align-items: flex-start;
+  }
+  
+  .imagem-produto img {
+    width: 100%;
+    border-radius: 10px;
+    border: px solid #294d2c;;
+  }
+  
+  .nome-produto_preco h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .nome-produto_preco h2 {
+    font-size: 3rem;
+    margin: 15px 0;
+  }
+  
+  .avaliacoes {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .cor-label,
+  .tamanho-label {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .alinhar_cores {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .alinhar_cores div {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .alinhar_tamanhos {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .alinhar_tamanhos button {
+    padding: 1rem 1.2rem;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .alinhar_tamanhos button:hover {
+    background: #e0e0e0;
+  }
+  
+  .adicionar_carrinho {
+    padding: 1.4rem 4rem;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .adicionar_carrinho:hover {
+    background: #333;
+  }
+  
