@@ -41,10 +41,11 @@
     margin: 0;
   }
   
-  .logo h1 {
+  .logo a {
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     color: #2b5a2b;
+    font-weight: bold;
   }
 
 
@@ -55,7 +56,7 @@
   }
   
   .nav-links a {
-    font-family: Poppins;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-decoration: none;
     color: #294d2c;
@@ -143,39 +144,6 @@
 }
 
 
-.categories-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
-}
-
-.category-item {
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 15px;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.category-img {
-  background-color: #ddd;
-  width: 100%;
-  height: 200px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.category-item h3 {
-  font-size: 18px;
-  color: #2b5a2b;
-  margin-bottom: 5px;
-}
-
-.category-item p {
-  font-size: 16px;
-  color: #555;
-}
-
 .product-card {
   width: 100%;
   max-width: 400px;
@@ -254,6 +222,7 @@
 
 .grid_produtos_linha1 {
   display: flex;
+  gap: rem;
 }
 
 /* Definindo a animação */
@@ -266,4 +235,29 @@
     transform: translateY(0); /* Vai para a posição original */
     opacity: 1; /* Torna-se totalmente visível */
   }
+}
+
+.botao_shop_masculino {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+
+.botao_shop {
+  background-color: #2b5a2b;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  padding: 1.5rem 2.2rem;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao_shop:hover {
+  background-color: #222; /* escurece um pouco no hover */
 }
