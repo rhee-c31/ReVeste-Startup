@@ -92,10 +92,38 @@
     transform: scale(1.05);
   }
   
+  .banner {
+    position: relative; /* necessário para o botão se posicionar relativamente à div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .banner img {
     width: 100%;
     max-width: 1900px;
     height: auto;
+    display: block;
+  }
+  
+  .banner button {
+    position: absolute;
+    background-color: rgba(244,237,221);
+    color: #2b5a2b;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.5% 5%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    bottom: 18%; /* posiciona o botão mais perto do fundo da imagem */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .banner button:hover {
+    background-color: rgb(228, 221, 206);
   }
   
 
