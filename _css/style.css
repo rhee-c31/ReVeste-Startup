@@ -254,7 +254,7 @@
 
 .grid_produtos_linha1 {
   display: flex;
-  gap: rem;
+  gap: 2rem;
 }
 
 /* Definindo a animação */
