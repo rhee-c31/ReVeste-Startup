@@ -186,7 +186,9 @@
   animation: aparecerDeBaixo 1s ease-out forwards;
   opacity: 0;
   animation-delay: 1s;
+  cursor: pointer;
 }
+
 
 .product-image {
   position: relative;
@@ -289,7 +291,7 @@
 }
 
 .botao_shop:hover {
-  background-color: #222; /* escurece um pouco no hover */
+  background-color: #244b24; /* escurece um pouco no hover */
 }
 
 footer {
