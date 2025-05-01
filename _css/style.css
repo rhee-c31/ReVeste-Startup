@@ -172,6 +172,8 @@
 }
 
 
+
+
 .product-card {
   width: 100%;
   max-width: 400px;
@@ -304,4 +306,42 @@ footer {
 .copy {
   text-align: center;
   margin-top: 20px;
+}
+
+.organizar_textos_topicos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+  padding: 12rem;
+  background-color: #fff;
+}
+
+.organizar_textos_topicos > div {
+  flex: 1 1 200px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.organizar_textos_topicos h1 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #294d2c;
+}
+
+.organizar_textos_topicos p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+.organizar_textos_topicos i {
+  color: #294d2c;
+}
+
+/* Responsivo para telas pequenas */
+@media (max-width: 768px) {
+  .organizar_textos_topicos > div {
+    max-width: 100%;
+  }
 }
