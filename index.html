@@ -16,33 +16,39 @@
 
 <!-- teste pro pull -->
 
-    <header class="header">
-      <div class="header-container">
-        
-        <!-- Logo -->
-        <div class="logo">
-          <a href="index.html">ReVeste</a>
-        </div>
+<header class="header">
+  <div class="header-container">
+    
+    <!-- Logo -->
+    <div class="logo">
+      <a href="index.html">ReVeste</a>
+    </div>
 
-        <!-- Navegação -->
-        <nav class="nav-links">
-          <a href="shop_masculino.html">MASCULINO</a>
-          <a href="shop_feminino.html">FEMININO</a>
-          <a href="#">ACESSÍVEIS</a>
-          <a href="#">DOAÇÕES</a>
-        </nav>
+    <!-- Navegação -->
+    <nav class="nav-links">
+      <a href="shop_masculino.html" id="shop_masculino">MASCULINO</a>
+      <a href="shop_feminino.html" id="shop_feminino">FEMININO</a>
+      <a href="#" id="shop_acessiveis">ACESSÍVEIS</a>
+      <a href="#" id="aba_doacoes">DOAÇÕES</a>
+    </nav>
 
-        <!-- Ícones -->
-        <div class="header-icons">
-          <a href="#" title="Buscar"><i class="fa-solid fa-magnifying-glass"></i></a>
-          <a href="#" title="Carrinho"><i class="fa-solid fa-bag-shopping"></i></a>
-          <a href="login.html" title="Login"><i class="fa-solid fa-user"></i></a>
-          <a href="login.html" title="Login"><i class="fa-solid fa-medal"></i></a>
-        </div>
+    <!-- Barra de busca (inicialmente oculta) -->
+    <div class="search-container" id="search-container">
+      <input type="text" placeholder="Buscar..." class="search-input">
+    </div>
 
-      </div>
+    <!-- Ícones -->
+    <div class="header-icons">
+      <a href="#" title="Buscar" onclick="toggle_pesquisa()">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a>      
+      <a href="#" title="Carrinho"><i class="fa-solid fa-bag-shopping"></i></a>
+      <a href="login.html" title="Login"><i class="fa-solid fa-user"></i></a>
+      <a href="login.html" title="Login"><i class="fa-solid fa-medal"></i></a>
+    </div>
+  </div>
+</header>
 
-    </header>
 
     <div class="banner">
       <img src="_img/Banner3.png" alt="">
@@ -175,5 +181,7 @@
         <p>&copy; Reveste 2025</p>
       </div>
     </footer>
+
+    <script src="_js/script.js"></script>
 </body>
 </html>
