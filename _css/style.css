@@ -1,133 +1,138 @@
-/* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f1f1f1;
-  }
-  
-  /* Header */
-  .header {
-    width: 100%;
-    background-color: rgba(244,237,221);
-    border-bottom: 1px solid #ddd;
-    padding: 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .header-container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 20px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
-  
-  /* Logo */
-  .logo img {
-    height: 100px;
-    cursor: pointer;
-    margin: 0;
-  }
-  
-  .logo a {
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    color: #2b5a2b;
-    font-weight: bold;
-  }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: rgba(244, 237, 221);
+  border-bottom: 1px solid #ddd;
+  padding: 28px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: #333333 0px 0px 4px;
+}
+
+.header-container {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 
-  /* Navegação */
-  .nav-links {
-    display: flex;
-    gap: 50px;
-  }
-  
-  .nav-links a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    color: #294d2c;
-    font-weight: 500;
-    font-size: 20px;
-    transition: color 0.3s;
-  }
-  
-  a {
-    text-decoration: none; /* remove sublinhado */
-    color: inherit; /* herda a cor do h3 */
-  }
 
-  .nav-links a:hover {
-    color: #5dad62; /* muda para azul no hover (você pode trocar pela cor da sua marca) */
-    transform: scale(1.05);
-  }
-  
-  /* Ícones */
-  .header-icons {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .header-icons a {
-    color: #294d2c;
-    font-size: 22px;
-    transition: color 0.3s;
-  }
-  
-  .header-icons a:hover {
-    color: #5dad62;
-    transform: scale(1.05);
-  }
-  
-  .banner {
-    position: relative; /* necessário para o botão se posicionar relativamente à div */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .banner img {
-    width: 100%;
-    max-width: 1900px;
-    height: auto;
-    display: block;
-  }
-  
-  .banner button {
-    position: absolute;
-    background-color: rgba(244,237,221);
-    color: #2b5a2b;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 1.5% 5%;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    bottom: 18%; /* posiciona o botão mais perto do fundo da imagem */
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .banner button:hover {
-    background-color: rgb(228, 221, 206);
-  }
-  
+/* Logo */
+.logo img {
+  height: 100px;
+  cursor: pointer;
+  margin: 0;
+}
 
-.banner  {
+.logo a {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #2b5a2b;
+  font-weight: bold;
+}
+
+
+/* Navegação */
+.nav-links {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #294d2c;
+  font-weight: 500;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+a {
+  text-decoration: none;
+  /* remove sublinhado */
+  color: inherit;
+  /* herda a cor do h3 */
+}
+
+.nav-links a:hover {
+  color: #5dad62;
+  /* muda para azul no hover (você pode trocar pela cor da sua marca) */
+  transform: scale(1.05);
+}
+
+/* Ícones */
+.header-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.header-icons a {
+  color: #294d2c;
+  font-size: 22px;
+  transition: color 0.3s;
+}
+
+.header-icons a:hover {
+  color: #5dad62;
+  transform: scale(1.05);
+}
+
+.banner {
+  position: relative;
+  /* necessário para o botão se posicionar relativamente à div */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 1900px;
+  height: auto;
+  display: block;
+}
+
+.banner button {
+  position: absolute;
+  background-color: rgba(244, 237, 221);
+  color: #2b5a2b;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5% 5%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  bottom: 18%;
+  /* posiciona o botão mais perto do fundo da imagem */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.banner button:hover {
+  background-color: rgb(228, 221, 206);
+}
+
+
+.banner {
   display: flex;
   justify-content: center;
 }
@@ -136,34 +141,42 @@
   margin: 60px 0;
   padding: 0 5%;
 }
+
 .categories-titles {
   margin: 4rem 0;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 150px;
   text-align: center;
-  cursor: pointer;
 }
 
 .categories-titles h2 {
-  color: #2b5a2b;
-  font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-size: 28px;
+  font-weight: 200;
+  font-family: poppins;
   position: relative;
   padding-bottom: 5px;
   transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.categories-titles h2:hover {
+  transform: scale(1.05);
 }
 
 /* Linha padrão abaixo de todos */
 .categories-titles h2::after {
   content: "";
   position: absolute;
-  bottom: 0;
   left: 0;
+  bottom: -5px;
   width: 100%;
   height: 2px;
-  background-color: #333;
+  background-color: transparent;
+  transition: background-color 0.3s;
 }
+
 
 /* Quando estiver ativo */
 .categories-titles h2.active::after {
@@ -172,15 +185,13 @@
 }
 
 
-
-
 .product-card {
   width: 100%;
   max-width: 400px;
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   font-family: 'Poppins', sans-serif;
   margin: 20px auto;
   animation: aparecerDeBaixo 1s ease-out forwards;
@@ -255,17 +266,23 @@
 .grid_produtos_linha1 {
   display: flex;
   gap: 2rem;
+  margin: 20px;
 }
 
 /* Definindo a animação */
 @keyframes aparecerDeBaixo {
   0% {
-    transform: translateY(30px); /* Começa 30px abaixo da posição original */
-    opacity: 0; /* Inicialmente invisível */
+    transform: translateY(30px);
+    /* Começa 30px abaixo da posição original */
+    opacity: 0;
+    /* Inicialmente invisível */
   }
+
   100% {
-    transform: translateY(0); /* Vai para a posição original */
-    opacity: 1; /* Torna-se totalmente visível */
+    transform: translateY(0);
+    /* Vai para a posição original */
+    opacity: 1;
+    /* Torna-se totalmente visível */
   }
 }
 
@@ -291,7 +308,8 @@
 }
 
 .botao_shop:hover {
-  background-color: #244b24; /* escurece um pouco no hover */
+  background-color: #244b24;
+  /* escurece um pouco no hover */
 }
 
 footer {
@@ -300,14 +318,77 @@ footer {
   padding: 20px;
 }
 
-.footer-container {
+footer h3 {
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  color: #fefafa;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #fefafa;
+}
+
+footer li {
+  margin: 0;
+  font-size: 14px;
+  color: #fefafa;
+}
+
+.footer-container1 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-bottom: 35px;
+  gap: 32px;
+  text-align: left;
+}
+
+.objetivo {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  margin-top: 20px;
+}
+
+.contato {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 4;
+  margin-top: 20px;
+}
+
+.links-rapidos {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 7;
+  margin-top: 20px;
+}
+
+
+.footer-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin-top: 35px;
+  gap: 8px;
+}
+
+.redes-sociais {
   display: flex;
-  justify-content: space-between;
+  gap: 13px;
+}
+
+.redes-sociais i {
+  color: #f8f8f8;
+  font-size: 27px;
+  transition: color 0.3s;
 }
 
 .copy {
-  text-align: center;
-  margin-top: 20px;
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 5;
 }
 
 .organizar_textos_topicos {
@@ -319,7 +400,7 @@ footer {
   background-color: #fff;
 }
 
-.organizar_textos_topicos > div {
+.organizar_textos_topicos>div {
   flex: 1 1 200px;
   max-width: 250px;
   text-align: center;
@@ -329,12 +410,14 @@ footer {
   font-size: 1.2rem;
   margin-bottom: 10px;
   color: #294d2c;
+  text-align: left;
 }
 
 .organizar_textos_topicos p {
   font-size: 0.9rem;
   line-height: 1.4;
   color: #333;
+  text-align: left;
 }
 
 .organizar_textos_topicos i {
@@ -343,7 +426,7 @@ footer {
 
 /* Responsivo para telas pequenas */
 @media (max-width: 768px) {
-  .organizar_textos_topicos > div {
+  .organizar_textos_topicos>div {
     max-width: 100%;
   }
 }
