@@ -430,24 +430,3 @@ footer li {
     max-width: 100%;
   }
 }
-
-}
-
-.search-container {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  width: 100%; 
-  max-width: 400px; /* Muda por aqui o tamanho da barra de pesquisa*/
-}
-
-
-.search-input {
-  font-family: 'Montserrat', sans-serif;
-  padding: 10px 15px;
-  border: 1px solid #294d2c;
-  border-radius: 5px;
-  width: 100%; 
-  max-width: 900px;
-}
-
