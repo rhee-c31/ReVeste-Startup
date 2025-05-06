@@ -12,7 +12,7 @@ body {
 /* Header */
 .header {
     width: 100%;
-    background-color: rgba(244, 237, 221);
+    background-color: #f4eddd;
     border-bottom: 1px solid #ddd;
     padding: 28px;
     position: sticky;
@@ -182,7 +182,7 @@ footer li {
     justify-content: center;
     align-items: left;
     flex-direction: column;
-    gap: 2vh;
+    gap: 3.5vh;
 }
 
 .texto h1 {
@@ -197,6 +197,7 @@ footer li {
     color: #101010;
     font-size: 16px;
     justify-content: left;
+    text-wrap: wrap;
 }
 
 .imagem {
@@ -208,4 +209,20 @@ footer li {
 
 .imagem img {
     width: 28.5vw;
+}
+
+.itens {
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+}
+
+.item img {
+    width: 37px;
+}
+
+.valores-texto {
+    margin-left: 2vw;
 }
