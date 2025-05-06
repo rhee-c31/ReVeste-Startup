@@ -1,181 +1,182 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f1f1f1;
-  }
-  
-  /* Header */
-  .header {
-    width: 100%;
-    background-color: rgba(244,237,221);
-    border-bottom: 1px solid #ddd;
-    padding: 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .header-container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 20px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
-  
-  /* Logo */
-  .logo img {
-    height: 100px;
-    cursor: pointer;
-    margin: 0;
-  }
-  
-  .logo a {
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    color: #2b5a2b;
-    font-weight: bold;
-  }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: rgba(244, 237, 221);
+  border-bottom: 1px solid #ddd;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.logo img {
+  height: 100px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.logo a {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #2b5a2b;
+  font-weight: bold;
+}
 
 
-  /* Navegação */
-  .nav-links {
-    display: flex;
-    gap: 50px;
-  }
-  
-  .nav-links a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    color: #294d2c;
-    font-weight: 500;
-    font-size: 20px;
-    transition: color 0.3s;
-  }
-  
-  a {
-    text-decoration: none; /* remove sublinhado */
-    color: inherit; /* herda a cor do h3 */
-  }
+/* Navegação */
+.nav-links {
+  display: flex;
+  gap: 50px;
+}
 
-  .nav-links a:hover {
-    color: #5dad62; /* muda para azul no hover (você pode trocar pela cor da sua marca) */
-    transform: scale(1.05);
-  }
-  
-  /* Ícones */
-  .header-icons {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .header-icons a {
-    color: #294d2c;
-    font-size: 22px;
-    transition: color 0.3s;
-  }
-  
-  .header-icons a:hover {
-    color: #5dad62;
-    transform: scale(1.05);
-  }
-  
-  
-  .pagina-produto {
-    display: flex;
-    gap: 6rem;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 40px;
-    align-items: flex-start;
-  }
-  
-  .imagem-produto img {
-    width: 100%;
-    border-radius: 10px;
-    border: px solid #294d2c;;
-  }
-  
-  .nome-produto_preco h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  
-  .nome-produto_preco h2 {
-    font-size: 3rem;
-    margin: 15px 0;
-  }
-  
-  .avaliacoes {
-    font-size: 1.5rem;
-    color: #333;
-  }
-  
-  .cor-label,
-  .tamanho-label {
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-  
-  .alinhar_cores {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .alinhar_cores div {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    cursor: pointer;
-  }
-  
-  .alinhar_tamanhos {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .alinhar_tamanhos button {
-    padding: 1rem 1.2rem;
-    border: 1px solid #ccc;
-    background: #f5f5f5;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .alinhar_tamanhos button:hover {
-    background: #e0e0e0;
-  }
-  
-  .adicionar_carrinho {
-    padding: 1.4rem 4rem;
-    background: #000;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .adicionar_carrinho:hover {
-    background: #333;
-  }
-  
+.nav-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #294d2c;
+  font-weight: 500;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+a {
+  text-decoration: none;
+  /* remove sublinhado */
+  color: inherit;
+  /* herda a cor do h3 */
+}
+
+.nav-links a:hover {
+  color: #5dad62;
+  /* muda para azul no hover (você pode trocar pela cor da sua marca) */
+  transform: scale(1.05);
+}
+
+/* Ícones */
+.header-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.header-icons a {
+  color: #294d2c;
+  font-size: 22px;
+  transition: color 0.3s;
+}
+
+.header-icons a:hover {
+  color: #5dad62;
+  transform: scale(1.05);
+}
+
+
+.pagina-produto {
+  display: flex;
+  gap: 6rem;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 40px;
+  align-items: flex-start;
+}
+
+.imagem-produto img {
+  width: 100%;
+  border-radius: 10px;
+  border: px solid #294d2c;
+  ;
+}
+
+.nome-produto_preco h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.nome-produto_preco h2 {
+  font-size: 3rem;
+  margin: 15px 0;
+}
+
+.avaliacoes {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.cor-label,
+.tamanho-label {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.alinhar_cores {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.alinhar_cores div {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.alinhar_tamanhos {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.alinhar_tamanhos button {
+  padding: 1rem 1.2rem;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.alinhar_tamanhos button:hover {
+  background: #e0e0e0;
+}
+
+.adicionar_carrinho {
+  padding: 1.4rem 4rem;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.adicionar_carrinho:hover {
+  background: #333;
+}

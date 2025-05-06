@@ -139,6 +139,10 @@ footer li {
     margin-top: 20px;
 }
 
+.links-rapidos li {
+    text-decoration: underline;
+}
+
 
 .footer-container2 {
     display: grid;
